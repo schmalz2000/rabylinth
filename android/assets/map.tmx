@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="80" tileheight="80" nextobjectid="32">
+ <tileset firstgid="1" name="tiles" tilewidth="80" tileheight="80" tilecount="56" columns="7">
+  <image source="tiles.png" width="560" height="640"/>
+ </tileset>
+ <tileset firstgid="57" source="player.tsx"/>
+ <layer name="background" width="25" height="25" opacity="0.7">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKFL8f2jLsdAwVVTVfXVA8c2Nbc=
+  </data>
+ </layer>
+ <layer name="graphics" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4MCCLXGIk4MZkcxDBtTiMyGxaUmP2jFqx6gdo3aM2jFqx6gdw8cOBjQ5avLpgQFPZQru
+  </data>
+ </layer>
+ <objectgroup name="walls">
+  <object id="8" x="0" y="0" width="2000" height="80"/>
+  <object id="9" x="0.274348" y="160" width="79.4513" height="1755.15"/>
+  <object id="10" x="160" y="80" width="80" height="1760"/>
+  <object id="11" x="320" y="160" width="80" height="1761.21"/>
+  <object id="12" x="1.21212" y="1918.36" width="1998.79" height="83.2828"/>
+  <object id="13" x="480" y="80" width="80" height="1760"/>
+  <object id="14" x="640" y="160" width="80" height="1760"/>
+  <object id="15" x="800" y="80" width="80" height="1760"/>
+  <object id="16" x="960" y="160" width="80" height="1760"/>
+  <object id="17" x="1120" y="80" width="80" height="1760"/>
+  <object id="18" x="1280" y="160" width="80" height="1760"/>
+  <object id="19" x="1440" y="80" width="80" height="1760"/>
+  <object id="20" x="1600" y="160" width="80" height="1760"/>
+  <object id="21" x="1760" y="80" width="80" height="1760"/>
+  <object id="22" x="1920" y="160" width="80" height="1760"/>
+ </objectgroup>
+ <objectgroup name="start">
+  <object id="24" x="0" y="80" width="80" height="80"/>
+ </objectgroup>
+ <objectgroup name="finish">
+  <object id="27" x="1920" y="80" width="80" height="80"/>
+ </objectgroup>
+ <objectgroup name="doors" visible="0"/>
+</map>
